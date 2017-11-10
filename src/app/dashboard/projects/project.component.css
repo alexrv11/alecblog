@@ -1,0 +1,54 @@
+.project-content {
+  width: 100%;
+  padding: 20px 15px;
+}
+
+.project-card {
+  width: 300px;
+  display: inline-block;
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+.project-header-card {
+  height: 120px;
+  background-color: rgb(93, 88, 166);
+  color: white;
+}
+
+.project-header-title-card {
+  height: 90px;
+}
+
+.project-header-tags-card {
+  flex-direction: row-reverse;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.project-header-tags-card * {
+  margin: 0px 5px;
+  padding: 5px;
+}
+
+.project-body-card {
+  height: 140px;
+  background-color: white;
+  color: #000;
+  padding: 15px 20px;
+}
+
+.project-footer-content-card {
+  border-top: 1px solid rgba(0,0,0,.08);
+  box-sizing: border-box;
+  margin: 0px;
+}

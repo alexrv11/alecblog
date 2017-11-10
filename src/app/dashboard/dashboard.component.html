@@ -1,3 +1,19 @@
 
-
+<mat-toolbar>
+  <a mat-button [routerLink]="['../home']">
+    <img width="20" src="assets/images/profile.jpg"> Alex
+  </a>
+  <a mat-button [routerLink]="['./curriculum']">
+    Experiences
+  </a>
+  <a mat-button [routerLink]="['./projects']">
+    Projects
+  </a>
+  <a mat-button [routerLink]="['./articles']">
+    Articles
+  </a>
+  <a mat-button [routerLink]="['./presentations']">
+    Presentations
+  </a>
+</mat-toolbar>
 <router-outlet></router-outlet>

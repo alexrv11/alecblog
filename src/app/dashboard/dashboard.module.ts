@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-//import { MaterialModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule } from '@angular/material'
 import { ArticleComponent } from './articles/article.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { ProjectComponent } from './projects/project.componet';
@@ -13,7 +13,9 @@ import { DashboardRoutingModule } from './dashboard.routing';
   imports: [
     CommonModule,
     FormsModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   declarations: [
     ArticleComponent,
