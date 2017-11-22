@@ -1,12 +1,31 @@
-.curriculum-header {
-  position: absolute;
-  width: 100%;
+.curriculum-container {
+  padding: 20px;
 }
-.curriculum-header div {
-  display: inline-block;
+#curriculum-title-info {
+  box-sizing: border-box;
+  padding: 10px 0px;
+  border-top: 3px solid #80CBC4;
 }
 
-.curriculum-header #curriculum-container-contact {
-  background-color: blue;
-  right: 0;
+#curriculum-title-info {
+  color: #5C6BC0;
+}
+.curriculum-card-layout {
+  box-shadow: 1px 2px 3px #B2DFDB;
+  border: 1px solid #80CBC4;
+  box-sizing: border-box;
+}
+
+.curriculum-card-layout * {
+  padding: 5px 10px;
+}
+
+.curriculum-card-head {
+  background-color: #80CBC4;
+}
+.spliter-card-container {
+  padding: 10px;
+}
+.spliter-card-body {
+  border-top: 1px solid #80CBC4;
 }

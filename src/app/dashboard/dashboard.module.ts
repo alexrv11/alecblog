@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { MatToolbarModule, MatButtonModule } from '@angular/material'
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { ArticleComponent } from './articles/article.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { ProjectComponent } from './projects/project.componet';
@@ -15,7 +16,8 @@ import { DashboardRoutingModule } from './dashboard.routing';
     FormsModule,
     DashboardRoutingModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    FlexLayoutModule
   ],
   declarations: [
     ArticleComponent,
