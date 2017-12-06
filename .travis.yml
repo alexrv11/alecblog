@@ -2,7 +2,7 @@
 
 language: node_js
 node_js:
-  - "node"
+  - "8.x"
 
 branches:
   only:
@@ -14,7 +14,6 @@ before_script:
 
 script:
   - ng build --prod
-  - npm run precache
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
